@@ -26,6 +26,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
           context: .
-          file: ./docker-action
+          file: docker-compose up -d --build
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME}}/microservices:latest
