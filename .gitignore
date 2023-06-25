@@ -361,3 +361,25 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+# Ignore bin and obj folders
+bin/
+obj/
+
+# Ignore bin and obj folders
+**/bin/
+**/obj/
+
+
+# macOS-specific
+*.DS_Store
+
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
